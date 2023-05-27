@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Series</title>
+		<link rel ="stylesheet" type ="text/css" href ="WarnerBros.css"/>
+		<link rel="icon" type="image/png" sizes = "192 x 192" href="android-chrome-512x512.png"/>
+		<style>
+		.breadcrumbs {
+			width: 80px;
+		}
+		
+		.header-section{
+			border: 1px solid black;
+			width: 160px;
+			color: #fff;
+			background-color: #005aae;
+			margin: 10px 0px 0px 39px;
+			height: 40px;
+		}
+		
+		article section {
+			border: 2px solid #000;
+			background-color: #005aae;
+			width: 90%;
+			height: 280px;
+			color: #fff;
+			display: center;
+			margin-left: 2.5%;
+			margin-bottom: 40px;	
+		}
+		
+		article section figure img {
+			width: 130px;
+			height: 180px;
+			display: block;
+			margin-left: 60px;
+		}
+		
+		figure.firstRowImg:hover {
+			transform: scale(1.2);
+		}
+		article section figure {
+			display: inline-block;
+			text-align: center;
+			padding: 25px 10px;
+			
+		}
+		article section {
+			border: 2px solid #000;
+			background-color: #005aae;
+			width: 90%;
+			height: 280px;
+			color: #fff;
+			display: center;
+			margin-left: 2.5%;
+			margin-bottom: 40px;				
+		}
+		
+		.color-overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 50%;
+			height: 100%;
+			background-color: #005aae; /* set the color of the overlay */
+			opacity: 0.95; /* set the opacity of the overlay */
+			margin-left: 100px;
+		}
+
+		.image-container {
+			position: relative;
+		}
+	
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<img src = "newHeader.png" alt = "header image">
+			<form class = "searchbar">
+				<input type = "search" placeholder = "Search...">
+				<button type = "submit"><img src = "magnifying-glass-icon-26762.png" style = "width: 8px; height:8px;"></button>
+			</form>
+			<form class = "signin">
+				<button type="submit">SIGN IN</button>
+			 </form>
+			<div class="accessibility">
+				<button class="language-button" aria-label="Switch language">
+					<img src="language accessibilty.png" alt="Accessibility icon">
+					<span class="language-text">Español</span>
+				</button>
+			</div>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href = "index.html">HOME</a></li>
+				<li><a href = "Warner Bros MoviesPage.html">MOVIES</a></li>
+				<li><a href = "Warner Bros Series Page.html">SERIES</a></li>
+				<li><a href = "Warner Bros Animation Page.html">ANIMATION</a></li>
+				<li><a href = "Warner Bros GamePage.html">GAMES</a></li>
+				<li><a href = "Warner Bros Shop Page.html">SHOP</a></li>
+			</ul>
+		</nav>
+				
+		<div class="breadcrumbs">
+			<a href = "Warner Bros Series Page.html">SERIES</a> 
+		</div>
+		
+		<article>
+			<div class = "header-section">
+				<h3>TRAILERS</h3>
+			</div>
+			<section style = "height: auto;">
+				<figure class = "head image" style = "margin-bottom: 25px;">
+					<img src = "Shrinkin.webp" alt = "Shrinking" style = "width: 980px; height: 240px; margin-left: 9%;">
+				</figure>
+				
+				<figure class = "firstRowImg" style = "padding-right: 4%;">
+					<img src =  "ted-lasso-logo.webp" alt = "Ted Lasso">
+				</figure>
+
+				<figure class = "firstRowImg">
+				<img src = "supe.jpg" alt = "Superman and Lois poster">
+				</figure>
+				
+				<figure class = "firstRowImg">
+					<img src =  "Titans-Season-4-Part-2-Poster-01.webp" alt = "Titans-Season-4-Part-2-Poster-01">
+				</figure>
+				
+				<figure class = "firstRowImg">
+				    <div class = "image-container">		
+						<img src = "the final run.jpg" alt = "Flash season-9-poster">
+						<div class="color-overlay"></div>
+				    </div>			
+				</figure>
+				
+				<figure class = "next">
+						<p><a href = "Warner Bros SeriesTrailerPage.html">></a></p>
+				</figure>
+
+			</section>
+			
+			<div class = "header-section">
+				<h3>NEW RELEASES</h3>
+			</div>
+			<section>	
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "Shrinking.jpg" alt = "Shrinking pic">
+						<caption>SHRINKING</caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>SHRINKING</h3>
+						<p>RELEASE:(19 JULY 2023)</p>
+					</div>
+				</div>
+				
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src =  "ted-lasso-logo.webp" alt = "Ted Lasso">
+						<caption>TED LASSO</caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>TED LASSO</h3>
+						<p><del>RELEASE:(15 MARCH 2023)</del></p>
+					</div>
+				</div>
+
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src =  "Titans-Season-4-Part-2-Poster-01.webp" alt = "Titans-Season-4-Part-2-Poster-01">
+						<caption>TITANS SEA...</caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>TITANS SEASON 4</h3>
+						<p><del>RELEASE:(15 MARCH 2023)</del></p>
+					</div>
+				</div>
+
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "supe.jpg" alt = "Superman and Lois poster">
+						<caption>SUPERM...<br></caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>SUPERMAN & LOIS SEASON 3</h3>
+						<p><del>RELEASE:(14 MARCH2023)</del></p>
+					</div>
+				</div>
+
+			</section>
+			
+			<div class = "header-section">
+				<h3>SERIES A-Z</h3>
+			</div>
+			<section>
+				<div class="movie-container">
+					<figure class = "firstRowImg">
+						<img src = "ARROW.jpg" alt = "Arrow">
+						<caption>ARROW</caption>
+					</figure>
+					  <div class="movie-info">
+						<h3>ARROW (2012)</h3>
+						<p>After mastering the skill of archery on a deserted island, multi-millionaire playboy Oliver Queen returns to his city to take on the vigilante persona of Arrow to fight crime and corruption.</p>
+					  </div>
+				</div>
+				
+				
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "FRIENDS.jpg" alt = "Friends pic">
+						<caption>FRIENDS</caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>FRIENDS(1994)</h3>
+						<p>Follow the lives of six reckless adults living in Manhattan, as they indulge in adventures which make their lives both troublesome and happening.</p>
+					</div>
+				</div>
+				
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "TBBT.jpg" alt = "The Big Bang Theory pic">
+					<caption>THE BIG...</caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>THE BIG BANG THEORY(2007)</h3>
+						<p>The lives of four socially awkward friends, Leonard, Sheldon, Howard and Raj, take a wild turn when they meet the beautiful and free-spirited Penny.</p>
+					</div>
+				</div>
+
+				<figure>
+					<div class = "image-container">
+						<img src = "smallville.jpg"alt = "Smallville pic">
+						<div class="color-overlay"></div>
+						<figcaption style ="color: #005aae;">SMALLVILLE</figcaption>
+					</div>	
+				</figure>
+				
+				<figure class = "next">
+						<p><a href = "Warner Bros SeriesA-ZPage.html">></a></p>
+				</figure>
+			</section>
+		</article>
+S
+		<footer>
+			<section>
+				<img src = "favicon-32x32.png" alt = "warner bros icon" width = "40" height = "40" style = "float:left;"><p style = "margin: 80px; color: white;">TM & © 2023 Warner Bros. Entertainment Inc. All rights reserved.  Terms of use  Accessibility  Privacy Policy Ad choices</p>
+			</section>
+		</footer>
+	</body>
+	
+</html>

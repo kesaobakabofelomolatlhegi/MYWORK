@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Game</title>
+		<link rel ="stylesheet" type ="text/css" href ="WarnerBros.css"/>
+		<link rel="icon" type="image/png" sizes = "192 x 192" href="android-chrome-512x512.png"/>
+		<style>
+			.breadcrumbs {
+				width: 100px;
+			}
+		
+			.header-section{
+				border: 1px solid black;
+				width: 160px;
+				color: #fff;
+				background-color: #005aae;
+				margin: 10px 0px 0px 39px;
+				height: 40px;
+			}
+			
+			article section {
+				border: 2px solid #000;
+				background-color: #005aae;
+				width: 90%;
+				height: 280px;
+				color: #fff;
+				display: center;
+				margin-left: 2.5%;
+				margin-bottom: 40px;	
+			}
+			
+			article section figure img {
+				width: 130px;
+				height: 180px;
+				display: block;
+				margin-left: 60px;
+			}
+			
+			figure.firstRowImg:hover {
+				transform: scale(1.2);
+			}
+			article section figure {
+				display: inline-block;
+				text-align: center;
+				padding: 25px 10px;
+				
+			}
+			article section {
+				border: 2px solid #000;
+				background-color: #005aae;
+				width: 90%;
+				height: 280px;
+				color: #fff;
+				display: center;
+				margin-left: 2.5%;
+				margin-bottom: 40px;				
+			}
+			
+			.color-overlay {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 50%;
+				height: 100%;
+				background-color: #005aae; /* set the color of the overlay */
+				opacity: 0.95; /* set the opacity of the overlay */
+				margin-left: 100px;
+			}
+
+			.image-container {
+				position: relative;
+			}
+	
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<img src = "newHeader.png" alt = "header image">
+			<form class = "searchbar">
+				<input type = "search" placeholder = "Search...">
+				<button type = "submit"><img src = "magnifying-glass-icon-26762.png" style = "width: 8px; height:8px;"></button>
+			</form>
+			<form class = "signin">
+				<button type="submit">SIGN IN</button>
+			 </form>
+			<div class="accessibility">
+				<button class="language-button" aria-label="Switch language">
+					<img src="language accessibilty.png" alt="Accessibility icon">
+					<span class="language-text">Español</span>
+				</button>
+			</div>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href = "index.html">HOME</a></li>
+				<li><a href = "Warner Bros MoviesPage.html">MOVIES</a></li>
+				<li><a href = "Warner Bros Series Page.html">SERIES</a></li>
+				<li><a href = "Warner Bros Animation Page.html">ANIMATION</a></li>
+				<li><a href = "Warner Bros GamePage.html">GAMES</a></li>
+				<li><a href = "Warner Bros Shop Page.html">SHOP</a></li>
+			</ul>
+		</nav>
+		
+		<div class="breadcrumbs">
+			<a href = "Warner Bros GamePage.html">GAMES</a> 
+		</div>
+		
+		<article>
+			<div class = "header-section">
+				<h3>TRAILERS</h3>
+			</div>
+			<section style = "height: auto;">
+				<figure class = "head image" style = "margin-bottom: 25px;">
+					<img src = "Gotham Knights - Made with Clipchamp.gif" alt = "Gotham Knights gif" style = "width: 980px; height: 250px; margin-left: 16%;">
+				</figure>
+				
+				<figure class = "firstRowImg" style = "padding-right: 4%;">
+					<img src = "HL game logo.webp" alt = "Hogwarts Legacy game logo">
+					<caption>HOGWARTS LEGACY<br></caption>
+					<caption>RELEASE:(7 FEBRUARY 2023)</caption>
+				</figure>
+				
+				<figure class = "firstRowImg">
+					<img src = "gk logo.jpg" alt = "Gotham Knights game logo">
+					<caption>GOTHAM KNIGHTS<br></caption>
+					<caption>RELEASE:(21 OCTOBER 2022 )</caption>
+				</figure>
+				
+				<figure class = "firstRowImg">
+					<img src = "multiversus logo.jpg" alt = "Multiversus game logo">
+					<caption>MULTIVERSUS<br></caption>
+					<caption>RELEASE:(19 JULY 2022)</caption>
+				</figure>
+				
+				<figure>
+					 <div class = "image-container">
+						<img src = "star wars the skywalker saga game logo.webp" alt = "Star wars the skywalker saga game logo">
+						<div class="color-overlay"></div>
+					</div>
+					<figcaption style ="color: #005aae;">STAR WARS</figcaption>
+				</figure>
+				
+				<figure class = "next">
+						<p><a href = "Warner Bros GameTrailerPage.html">></a></p>
+				</figure>
+			</section>
+			
+			<div class = "header-section">
+				<h3>NEW RELEASES</h3>
+			</div>
+			<section>
+				<figure class = "firstRowImg">
+					<img src = "Hogwarts.webp" alt = "Hogwarts Legacy">
+					<caption>HOGWARTS LEGACY</caption>
+				</figure>
+				
+				<figure class = "firstRowImg">
+					<img src = "Gotham_Knights_Cover.jpg" alt = "Gotham Knights">
+					<caption>GOTHAM KNIGHTS</caption>
+				</figure>
+				
+				<figure class = "firstRowImg">
+					<img src = "multiversus.jpg" alt = "Multiversus">
+					<caption>MULTIVERSUS</caption>
+				</figure>
+				
+				<figure>
+					<img src = "star wars.webp" alt = "Star Wars">
+					<caption>STAR WARS</caption>
+				</figure>
+			</section>
+			
+			<div class = "header-section">
+				<h3>MY GAMES & APPS</h3>
+			</div>
+			<section>
+				<figure class = "firstRowImg">
+					<img src = "heads up.jpg">
+					<caption>HEADS UP</caption>
+				</figure>
+				
+				<figure class = "firstRowImg">
+					<img src = "Scribblenauts Remix.png">
+					<caption>SCRIBBLENAUTS REMIX</caption>
+				</figure>
+				
+				<figure class = "firstRowImg">
+					<img src = "INJUSTICE 2.webp">
+					<caption>INJUSTICE 2</caption>
+				</figure>
+				
+				<figure>
+					<img src = "harry-potter-magic-caster-logo.webp">
+					<caption>MAGIC CASTER WAND</caption>
+				</figure>
+				
+			</section>
+		</article>
+		
+		<footer>
+			<section>
+				<img src = "favicon-32x32.png" alt = "warner bros icon" width = "40" height = "40" style = "float:left;"><p style = "margin: 80px; color: white;">TM & © 2023 Warner Bros. Entertainment Inc. All rights reserved.  Terms of use  Accessibility  Privacy Policy Ad choices</p>
+			</section>
+		</footer>
+	</body>
+	
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Movies</title>
+		<link rel ="stylesheet" type ="text/css" href ="WarnerBros.css"/>
+		<link rel="icon" type="image/png" sizes = "192 x 192" href="android-chrome-512x512.png"/>
+		<style>
+		.breadcrumbs {
+				width: 140px;
+			}
+			
+		.header-section{
+				border: 1px solid black;
+				width: 160px;
+				color: #fff;
+				background-color: #005aae;
+				margin: 10px 0px 0px 39px;
+				height: 40px;
+		}
+		article section {
+			border: 2px solid #000;
+			background-color: #005aae;
+			width: 90%;
+			height: 280px;
+			color: #fff;
+			dispaly: center;
+			margin-left: 2.5%;
+			margin-bottom: 40px;		
+		}
+		
+		article section figure img {
+			width: 130px;
+			height: 180px;
+			display: block;
+			margin-left: 60px;
+		}
+		
+		article section figure {
+			display: inline-block;
+			text-align: center;
+			padding: 25px 10px;
+		
+		}
+		
+		figure.firstRowImg:hover {
+			transform: scale(1.2);
+		}
+		
+		.color-overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 50%;
+			height: 100%;
+			background-color: #005aae; /* set the color of the overlay */
+			opacity: 0.95; /* set the opacity of the overlay */
+			margin-left: 110px;
+		}
+
+		.image-container {
+			position: relative;
+		}
+
+		footer{
+			clear: both;
+			background-color: #005aae;
+		}
+		
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<img src = "newHeader.png" alt = "header image">
+			<form class = "searchbar">
+				<input type = "search" placeholder = "Search...">
+				<button type = "submit"><img src = "magnifying-glass-icon-26762.png" style = "width: 8px; height:8px;"></button>
+			</form>
+			<form class = "signin">
+				<button type="submit">SIGN IN</button>
+			 </form>
+			<div class="accessibility">
+				<button class="language-button" aria-label="Switch language">
+					<img src="language accessibilty.png" alt="Accessibility icon">
+					<span class="language-text">Español</span>
+				</button>
+			</div>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href = "index.html">HOME</a></li>
+				<li><a href = "Warner Bros MoviesPage.html">MOVIES</a></li>
+				<li><a href = "Warner Bros Series Page.html">SERIES</a></li>
+				<li><a href = "Warner Bros Animation Page.html">ANIMATION</a></li>
+				<li><a href = "Warner Bros GamePage.html">GAMES</a></li>
+				<li><a href = "Warner Bros Shop Page.html">SHOP</a></li>
+			</ul>
+		</nav>
+		
+		<div class="breadcrumbs">
+			<a href = "Warner Bros MoviesPage.html">MOVIES </a> 
+		</div>
+		
+		<article>
+			<div class = "header-section">
+				<h3>TRAILERS</h3>
+			</div>
+			<section style = "height: auto;">
+				<figure class = "head image" style = "margin-bottom: 25px;">
+					<img src = "The-Flash-Movie.gif" alt = "Flash Trailer gif"  style = "width: 950px; height: 225px; margin-left: 16%;">
+				</figure>
+				
+				<figure class = "firstRowImg" style = "padding-right: 4%;">
+					<img src = "the-meg-2.jpg" alt = "The Meg 2 pic">
+					<caption> MEG 2 </caption>
+				</figure>
+				
+				<figure class = "firstRowImg" >
+					<img src = "Blue_Beetle_poster.jpg" alt = "Blue Beetle pic">
+					<caption> BLUE BEETLE</caption>
+				</figure>
+				
+				<figure class = "firstRowImg">
+					<img src = "nun 2 version2.jpg" alt = "The Nun 2 pic">
+					<caption> THE NUN 2</caption>
+				</figure>
+				
+				<figure>
+		            <div class = "image-container">		
+						<img src = "aqua.jpg" alt = "Aquaman 2 pic">
+						<div class="color-overlay"></div>
+						<figcaption style ="color: #005aae;"> AQUAMAN 2</figcaption>
+				    </div>
+				</figure>
+				
+				<figure class = "next">
+						<p><a href = "Warner Bros MoviesTrailerPage.html">></a></p>
+				</figure>
+			</section>
+			
+			<div class = "header-section">
+				<h3>NEW RELEASES</h3>
+			</div>
+			<section>
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "evil dead rise.jpg" alt = "Evil Dead Rise">	
+						<caption> EVIL DEAD..</caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>EVILD DEAD RISE</h3>
+						<caption><del>RELEASE: APRIL 21 2023</del></caption>
+					</div>
+				</div>
+				
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "Johnny.jpg" alt = "John Wick Chapter 4 movie pic">
+						<caption>JOHN WICK...</caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>JOHN WICK CHAPTER 4</h3>
+						<caption><del>RELEASE: MARCH 24 2023</del></caption>
+					</div>
+				</div>
+				
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "shazam.jpg" alt = "Shazam 2">
+						<caption> SHAZAM..</caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>SHAZAM: FURY OF THE GODS</h3>
+						<caption><del>RELEASE: MARCH 17 2023</del></caption>
+					</div>
+				</div>
+				
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "CREED III.jpg" alt = "Creed 3">
+						<caption> CREED III </caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>CREED III</h3>
+						<caption><del>RELEASE: MARCH 3 2023</del></caption>
+					</div>
+				</div>
+
+			</section>
+			
+			<div class = "header-section">
+				<h3>MOVIES A-Z</h3>
+			</div>
+			<section>
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "Annabelle.jpg" alt = "Annabelle">
+						<caption>ANNABELLE</caption>
+					</figure>
+				    <div class="movie-info">
+						<h3>ANNABELLE(2016)</h3>
+						<p>A couple begins to experience terrifying supernatural occurrences involving a vintage doll shortly after their home is invaded by satanic cultists.</p>
+					 </div>
+				</div>
+				
+				<div class="movie-container">
+					<figure class = "firstRowImg">
+						<img src = "Batman begins.jpg" alt = "Batman Begins">
+						<caption>BATMAN BEGINS</caption>
+					</figure>
+					  <div class="movie-info">
+						<h3>BATMAN BEGINS(2006)</h3>
+						<p>The film tells the origin story of Bruce Wayne from the death of his parents to his journey to become Batman and his fight to stop Ra's al Ghul and the Scarecrow from plunging Gotham City into chaos.</p>
+					  </div>
+				</div>
+				
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "CREED III.jpg" alt = "Creed 3">
+						<caption>CREED III </caption>
+					</figure>
+					 <div class="movie-info">
+						<h3>CREED III (2023)</h3>
+						<p>After dominating the boxing world, Adonis Creed (Michael B. Jordan) has been thriving in both his career and family life. When a childhood friend and former boxing prodigy, Damian (Jonathan Majors), resurfaces after serving a long sentence in prison, he is eager to prove that he deserves his shot in the ring.</p>
+					 </div>
+				</div>
+				
+				<figure>
+					<div class = "image-container">
+						<img src = "sherlock holmes.jpg"alt = "Sherlock Holmes">
+						<div class="color-overlay"></div>
+						<figcaption style ="color: #005aae;">SHERLOCK HOLMES</figcaption>
+					</div>	
+				</figure>
+				
+				<figure class = "next">
+						<p><a href = "Warner Bros MoviesA-ZPage.html">></a></p>
+				</figure>
+			</section>
+		</article>
+		
+		<footer>
+			<section>
+				<img src = "favicon-32x32.png" alt = "warner bros icon" width = "40" height = "40" style = "float:left;"><p style = "margin: 80px; color: white;">TM & © 2023 Warner Bros. Entertainment Inc. All rights reserved.  Terms of use  Accessibility  Privacy Policy Ad choices</p>
+			</section>
+		</footer>
+		
+	</body>
+</html>

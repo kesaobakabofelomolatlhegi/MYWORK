@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Movies A-Z</title>
+		<link rel ="stylesheet" type ="text/css" href ="WarnerBros.css"/>
+		<link rel="icon" type="image/png" sizes = "192 x 192" href="android-chrome-512x512.png"/>
+		<style>
+			.breadcrumbs {
+				width: 270px;
+			}
+
+			.header-section{
+				border: 1px solid black;
+				width: 160px;
+				color: #fff;
+				background-color: #005aae;
+				margin: 10px 0px 0px 39px;
+				height: 40px;
+			}
+			article section {
+				border: 2px solid #000;
+				background-color: #005aae;
+				width: 90%;
+				height: 280px;
+				color: #fff;
+				dispaly: center;
+				margin-left: 2.5%;
+				margin-bottom: 40px;
+				margin-top: 1.5%;
+				height: 600px;
+			}
+			
+			select[name="genres"] {
+				width: 8em;
+				height: 2em;
+				margin: 0.4em;
+				background-color: #232323;
+				color: #005aae;
+			}
+			article section figure img {
+				width: 130px;
+				height: 180px;
+				display: block;
+				margin-left: 20px;
+
+			}
+			
+			article section figure {
+				display: inline-block;
+				text-align: center;
+				padding: 25px 10px;
+			
+			}
+			
+			figure.firstRowImg:hover {
+				transform: scale(1.2);
+			}
+
+						
+			h4 {
+				color: #fbc404;;
+			}
+			
+			.maingenre {
+				color: #b70f0a;
+				
+			}
+			.pageturners {
+				width: 30px;
+				height: 20px;
+				margin-left: 50%;
+				background-color: #fbc404;
+			}
+			
+			.pageturners a{
+				margin: 10px 0px 0px 10px;
+				list-style-type: none;
+				color: #b70f0a;
+				
+			}
+			
+			footer{
+				clear: both;
+				background-color: #005aae;
+			}
+			
+			footer section{
+				color: #000;
+				height: 40px;
+			}
+
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<img src = "newHeader.png" alt = "header image">
+			<form class = "searchbar">
+				<input type = "search" placeholder = "Search...">
+				<button type = "submit"><img src = "magnifying-glass-icon-26762.png" style = "width: 8px; height:8px;"></button>
+			</form>
+			<form class = "signin">
+				<button type="submit">SIGN IN</button>
+			 </form>
+			<div class="accessibility">
+				<button class="language-button" aria-label="Switch language">
+					<img src="language accessibilty.png" alt="Accessibility icon">
+					<span class="language-text">Español</span>
+				</button>
+			</div>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href = "index.html">HOME</a></li>
+				<li><a href = "Warner Bros MoviesPage.html">MOVIES</a></li>
+				<li><a href = "Warner Bros Series Page.html">SERIES</a></li>
+				<li><a href = "Warner Bros Animation Page.html">ANIMATION</a></li>
+				<li><a href = "Warner Bros GamePage.html">GAMES</a></li>
+				<li><a href = "Warner Bros Shop Page.html">SHOP</a></li>
+			</ul>
+		</nav>
+		
+		<div class="breadcrumbs">
+			<a href = "Warner Bros MoviesPage.html">MOVIES>><a href = "/">MOVIES A-Z</a> 
+		</div>
+		
+		<article>
+			<section>
+				<select name = "genres">
+					<option>GENRES</option>
+					<option>Adventure</option>
+					<option>Action</option>
+					<option>Comedy</option>
+					<option>Horror</option>
+					<option>Fantasy</option>
+					<option>Thriller</option>
+					<option>Sci-fi</option>
+				</select>
+				<br>
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "Annabelle.jpg" alt = "Annabelle">
+						<caption>ANNABELLE</caption>
+					</figure>
+				    <div class="movie-info">
+						<h3>ANNABELLE(2016)</h3>
+						<p>A couple begins to experience terrifying supernatural occurrences involving a vintage doll shortly after their home is invaded by satanic cultists.</p>
+						<caption><p style = "color: #b70f0a;">HORROR</p>\\THRILLER</caption>
+						<h4>WATCH FOR: $5.69</h4>
+					</div>
+				</div>
+				<div class="movie-container">
+					<figure class = "firstRowImg">
+						<img src = "Batman begins.jpg" alt = "Batman Begins">
+						<caption>BATMAN BEGINS</caption>
+					</figure>
+					  <div class="movie-info">
+						<h3>BATMAN BEGINS(2006)</h3>
+						<p>The film tells the origin story of Bruce Wayne from the death of his parents to his journey to become Batman and his fight to stop Ra's al Ghul and the Scarecrow from plunging Gotham City into chaos.</p>
+						<caption><p style = "color: #b70f0a;">ACTION \\ SUPERHERO</p>\\THRILLER</caption>
+						<h4>WATCH FOR: $3.89</h4>
+					  </div>
+				</div>
+				
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "CREED III.jpg" alt = "Creed 3">
+						<caption>CREED III </caption>
+					</figure>
+					 <div class="movie-info">
+						<h3>CREED III (2023)</h3>
+						<p>After dominating the boxing world, Adonis Creed (Michael B. Jordan) has been thriving in both his career and family life. When a childhood friend and former boxing prodigy, Damian (Jonathan Majors), resurfaces after serving a long sentence in prison, he is eager to prove that he deserves his shot in the ring.</p>
+						<caption><p style = "color: #b70f0a;">ACTION \\ SPORTS</p>\\DRAMA</caption>
+						<h4>WATCH FOR: $5.69</h4>
+					 </div>
+				</div>
+				
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "dune.jpg" alt = "Dune">
+						<caption>DUNE</caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>DUNE (2021)</h3>
+						<p>A mythic and emotionally charged hero's journey, "Dune" tells the story of Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, who must travel to the most dangerous planet in the universe to ensure the future of his family and his people.</p>
+						<caption><p style = "color: #b70f0a;">ACTION \ADVENTURE \ DRAMA</p>\\SCI-FI</caption>
+						<h4>WATCH FOR: $4.49</h4>
+					</div>
+					
+				</div>
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "evil_dead.jpg"alt = "Evil Dead">
+						<caption>EVIL DEAD</caption>
+					</figure>
+					
+					 <div class="movie-info">
+						<h3>EVIL DEAD (2013)</h3>
+						<p>The Necronomicon Ex-Mortis, an ancient Sumerian text that wreaks havoc upon a group of cabin inhabitants in a wooded area in Tennessee.</p>
+						<caption><p style = "color: #b70f0a;">HORROR</p>\\THRILLER</caption>
+						<h4>WATCH FOR: $2.69</h4>
+					</div>
+				</div>
+
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "fantastic beasts.jpg" alt = "Fantastic Beasts">
+						<caption>FANTASTIC...</caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>FANTASTIC BEASTS: The Crimes Of Grindelwald (2018)</h3>
+						<p>Gellert Grindelwald plans to raise an army of wizards to rule over non-magical beings. In response, Newt Scamander's former professor, Albus Dumbledore, seeks his help to stop him.</p>
+						<caption><p style = "color: #b70f0a;">FANTASY</p>\\ADVENTURE</caption>
+						<h4>WATCH FOR: $5.69</h4>
+					</div>
+				</div>
+				
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "father figures.jpg" alt = "Father Figures">
+						<caption>FATHER FIGURES</caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>FATHER FIGURES (2017)</h3>
+						<p>The film follows two adult brothers who set out to find their biological father by encountering the men that their mother used to date.</p>
+						<caption><p style = "color: #b70f0a;">COMEDY</p>\\ADVENTURE</caption>
+						<h4>WATCH FOR: $5.69</h4>		
+					</div>
+				</div>
+
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "godzilla-2014.jpg" alt = "Godzilla">
+						<caption>GODZILLA </caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>GODZILLA (2014)</h3>
+						<p>Ford and his father, Joe, find evidence pointing to the existence of giant creatures. When the creatures, classified as MUTO, surface, Godzilla, an ancient behemoth, rises to fight them..</p>
+						<caption><p style = "color: #b70f0a;">SCI-FI</p>\\ACTION</caption>
+						<h4>WATCH FOR: $5.69</h4>
+					</div>
+				</div>
+
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "harry-potter-and-the-philosopher's stone.webp" alt = "Harry Potter & The Philosopher's Stone">
+						<caption>HARRY POTTER &... </caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>HARRY POTTER & The PHILOSOPHER'S STONE (2001)</h3>
+						<p>Harry Potter, an eleven-year-old orphan, discovers that he is a wizard and is invited to study at Hogwarts. Even as he escapes a dreary life and enters a world of magic, he finds trouble awaiting him.</p>
+						<caption><p style = "color: #b70f0a;">FANTASY</p>\\ACTION</caption>
+						<h4><a href = "Harry Potter & The Philosopher's Stone.html">WATCH FOR: $5.40</a></h4>
+					</div>
+				</div>
+
+				<div class = "movie-container">
+					<figure class = "firstRowImg">
+						<img src = "hp.jpg" alt = "Harry Potter & The Chamber of Secrets">
+						<caption>HARRY POTTER &...</caption>
+					</figure>
+					
+					<div class="movie-info">
+						<h3>HARRY POTTER & The Goblet Of Fire (2005)</h3>
+						<p>When Harry gets chosen as the fourth participant in the inter-school Triwizard Tournament, he is unwittingly pulled into a dark conspiracy that slowly unveils its dangerous agenda.</p>
+						<caption><p style = "color: #b70f0a;">FANTASY</p>\\ACTION</caption>
+						<h4>WATCH FOR: $6.20</h4>
+					</div>
+				</div>
+				
+			</section>
+			
+			<section class = "pageturners">	
+				<a href = "Warner Bros MoviesA-ZPage.html"> 1 </a>		
+			</section>
+		
+		</article>
+		
+		<footer>
+			<section>
+				<img src = "favicon-32x32.png" alt = "warner bros icon" width = "40" height = "40" style = "float:left;"><p style = "margin: 80px; color: white;">TM & © 2023 Warner Bros. Entertainment Inc. All rights reserved.  Terms of use  Accessibility  Privacy Policy Ad choices</p>
+			</section>
+		</footer>
+	</body>
+</html>
